@@ -16,6 +16,5 @@ class perro(mascota,genero):
     def display(self): 
         return self.mostrar()+" "+self.name+" "+str(self.old)+" "+self.genero
 
-
 obj=perro("Fido",10,"Domestico","Macho")
 print(obj.display())
